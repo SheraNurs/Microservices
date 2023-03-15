@@ -7,67 +7,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b689f91-b747-4502-8e9f-4c0bffc6b10f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jpb/persistence-units.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amqp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amqp/src/main/java/org/example/amqp/RabbitMQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amqp/src/main/java/org/example/amqp/RabbitMQMessageProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigw/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigw/src/main/java/com/example/apigw/ApiGWApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigw/src/main/resources/application-docker.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigw/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigw/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/main/java/org/example/clients/fraud/FraudCheckResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/main/java/org/example/clients/fraud/FraudClients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/main/java/org/example/clients/notification/NotificationClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/main/java/org/example/clients/notification/NotificationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/example/customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/example/customer/CustomerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/example/customer/CustomerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/example/customer/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/example/customer/CustomerRegistrationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/example/customer/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/example/customer/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/application-docker.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/org/example/eurekaserver/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-docker.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/com/example/fraud/FraudApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/com/example/fraud/FraudCheckHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/com/example/fraud/FraudCheckHistoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/com/example/fraud/FraudCheckService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/com/example/fraud/FraudController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/resources/application-docker.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/notification/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/notification/NotificationApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/notification/NotificationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/notification/NotificationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/notification/NotificationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/notification/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/notification/rabbitmq/NotificationConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/application-docker.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="6b689f91-b747-4502-8e9f-4c0bffc6b10f" name="Changes" comment="Add demo microservices project">
+      <change afterPath="$PROJECT_DIR$/clients/src/main/resources/clients-default.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/resources/clients-docker.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/resources/clients-kube.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/application-kube.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud/src/main/resources/application-kube.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/postgres/configmap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/postgres/service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/postgres/statefulset.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/postgres/volume.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/rabbitmq/configmap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/rabbitmq/rbac.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/rabbitmq/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/rabbitmq/statefulset.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/zipkin/service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/zipkin/statefulset.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/services/customer/deployment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/services/customer/service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/services/fraud/deployment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/services/fraud/service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/services/notification/deployment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/services/notification/service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/application-kube.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/org/example/clients/fraud/FraudClients.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/org/example/clients/fraud/FraudClients.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/org/example/clients/notification/NotificationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/org/example/clients/notification/NotificationClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/example/customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/example/customer/CustomerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application-docker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/com/example/fraud/FraudApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/com/example/fraud/FraudApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/resources/application-docker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/org/example/notification/NotificationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/notification/NotificationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/resources/application-docker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +63,9 @@
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="minikube" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -116,11 +94,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/Users/Gigabyte/Amigosservices/notification/src/main/resources",
+    "last_opened_file_path": "C:/Users/Gigabyte/Amigosservices/k8s/minikube/services",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "service.view.auto.scroll.to.source": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "598092fcd77d7a0337434a864817570f"
   },
@@ -139,11 +118,11 @@
       <recent name="com.example.customer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gigabyte\Amigosservices\k8s\minikube\services" />
+      <recent name="C:\Users\Gigabyte\Amigosservices\clients\src\main\resources" />
       <recent name="C:\Users\Gigabyte\Amigosservices\notification\src\main\resources" />
       <recent name="C:\Users\Gigabyte\Amigosservices\fraud\src\main\resources" />
       <recent name="C:\Users\Gigabyte\Amigosservices\customer\src\main\resources" />
-      <recent name="C:\Users\Gigabyte\Amigosservices\eureka-server\src\main\resources" />
-      <recent name="C:\Users\Gigabyte\Amigosservices\apigw\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -153,7 +132,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml.zipkin: Compose Deployment">
+  <component name="RunManager" selected="Spring Boot.NotificationApplication">
     <configuration name="ApiGWApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="apigw" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.apigw.ApiGWApplication" />
@@ -169,6 +148,9 @@
     </configuration>
     <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
+      <envs>
+        <env name="SPRING_PROFILES_ACTIVE" value="default" />
+      </envs>
       <module name="customer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.customer.CustomerApplication" />
       <extension name="coverage">
@@ -190,6 +172,9 @@
     </configuration>
     <configuration name="FraudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
+      <envs>
+        <env name="SPRING_PROFILES_ACTIVE" value="default" />
+      </envs>
       <module name="fraud" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.fraud.FraudApplication" />
       <extension name="coverage">
@@ -204,6 +189,9 @@
     </configuration>
     <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
+      <envs>
+        <env name="SPRING_PROFILES_ACTIVE" value="default" />
+      </envs>
       <module name="notification" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.notification.NotificationApplication" />
       <extension name="coverage">
@@ -239,10 +227,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker-compose.yml.zipkin: Compose Deployment" />
         <item itemvalue="Spring Boot.NotificationApplication" />
         <item itemvalue="Spring Boot.FraudApplication" />
         <item itemvalue="Spring Boot.CustomerApplication" />
+        <item itemvalue="Docker.docker-compose.yml.zipkin: Compose Deployment" />
         <item itemvalue="Spring Boot.ApiGWApplication" />
       </list>
     </recent_temporary>
@@ -262,8 +250,18 @@
       <workItem from="1678503325660" duration="45397000" />
       <workItem from="1678677929203" duration="10495000" />
       <workItem from="1678698366569" duration="2642000" />
-      <workItem from="1678710744381" duration="7003000" />
+      <workItem from="1678710744381" duration="7778000" />
+      <workItem from="1678784218075" duration="15686000" />
+      <workItem from="1678882426615" duration="4441000" />
     </task>
+    <task id="LOCAL-00001" summary="Add demo microservices project">
+      <created>1678718946842</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678718946842</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,12 +278,20 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add demo microservices project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add demo microservices project" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <breakpoint enabled="true" type="java-exception">
           <properties class="org.postgresql.util.PSQLException" package="org.postgresql.util" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.FileNotFoundException" package="java.io" />
+          <option name="timeStamp" value="4" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/notification/src/main/java/org/example/notification/NotificationController.java</url>
